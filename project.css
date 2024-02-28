@@ -1,0 +1,49 @@
+.body{
+    background-color: rgb(73, 71, 71);
+}
+.h3 {
+    color: green;
+}
+.p1 {
+    color: blue;
+}
+.p2 {
+    text-align: justify;
+    display: flex;
+    color: rgb(145, 41, 41);
+}
+.project {
+    display: flex;
+    flex-direction: row;
+}
+.text {
+    width: 50%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+.countdown {
+    display: flex;
+    flex-direction: row;
+}
+
+.countdown div {
+    flex-basis: 100px;
+    border: solid rgb(77, 77, 247);
+    margin-right: 15px;
+    background-color: rgb(98, 98, 236);
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+.countdown p {
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (max-width:600px) {
+    .project {
+        flex-direction: column;
+    }
+}
